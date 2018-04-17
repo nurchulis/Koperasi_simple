@@ -5,14 +5,14 @@
 </head>
 <body>
 	<center>
-	<h1>Tampil Pijaman</h1></center>
+	<h1>Tampil Angsuran</h1></center>
 	<table style="margin:20px auto;" border="1">
 		<tr>
 			<th>No</th>
 			<th>Noinduk</th>
 			<th>Nama</th>
 			<th>Jenis Kelamin</th>
-			<th>Jumlah Pinjaman</th>
+			<th>Jumlah angsuran</th>
 		</tr>
 		<?php 
 		$no = 1;
@@ -35,6 +35,5 @@
 		<a href="./Simpanan">Tampil Simpanan</a>||
 		<a href="./Neraca">Tampil Neraca</a>
 	</center>
-	
 </body>
 </html>

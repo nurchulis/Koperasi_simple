@@ -5,14 +5,13 @@
 </head>
 <body>
 	<center>
-	<h1>Tampil Pijaman</h1></center>
+	<h1>Tampil Anggota</h1></center>
 	<table style="margin:20px auto;" border="1">
 		<tr>
 			<th>No</th>
 			<th>Noinduk</th>
 			<th>Nama</th>
 			<th>Jenis Kelamin</th>
-			<th>Jumlah Pinjaman</th>
 		</tr>
 		<?php 
 		$no = 1;
@@ -23,12 +22,11 @@
 			<td><?php echo $u->Noinduk ?></td>
 			<td><?php echo $u->Nama ?></td>
 			<td><?php echo $u->JK ?></td>
-			<td><?php echo $u->ini ?></td>
 			
 		</tr>
 		<?php } ?>
 	</table>
-	<center>
+<center>
 		<a href="./Anggota">Daftar Anggota</a>||
 		<a href="./Tampil">Tampil Pinjaman</a>||
 		<a href="./Angsuran">Tampil Angsuran</a>||
